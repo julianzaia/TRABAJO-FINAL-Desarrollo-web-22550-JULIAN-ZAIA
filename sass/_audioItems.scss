@@ -1,0 +1,22 @@
+
+@for $i from 1 through 4 {
+    .audioItem#{$i} { width: 2em * $i; }
+  }
+
+
+.audioItem1{
+    grid-area: 1/1/3/5;
+    
+}
+
+.audioItem2{
+    grid-area: 3/1/3/2;
+}
+
+.audioItem3{
+    grid-area:3/2/3/3;
+}
+.audioItem4{
+    grid-area:3/3/3/4;
+}
+

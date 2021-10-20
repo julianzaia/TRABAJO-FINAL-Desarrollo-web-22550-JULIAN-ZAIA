@@ -1,0 +1,72 @@
+/*en este partial practico con  variables y operaciones simples*/
+
+.box { 
+    width: $widthUnit * 3;
+    height: 70px;
+    padding: 10px auto;
+    font-size: 15px;
+    background-image: linear-gradient(black, darkgrey);
+    margin: $marginBox;
+    border: $borderBox;
+    align-content:center;
+    color: $textColor;
+    align-items: center;
+    
+
+}
+
+/*flexbox del index.html*/
+
+
+
+.box1 {   
+    width: $widthUnit * 2;
+    height:10vh;
+    padding: 10px auto;
+    font-size: 15px;
+    background-image: linear-gradient(darkgray, rgb(190, 188, 188) );
+    margin: $marginBox;
+    border: $borderBox;
+    align-content:center;
+    justify-content:stretch;
+    transition: height 2s;
+}
+.box1:hover{
+    height:60vh;
+    
+}
+
+
+.box2 { 
+    width: $widthUnit * 4;
+    height:25vh;
+    display: flex;
+    padding: 10px auto;
+    font-size: 15px;
+    background-image: linear-gradient(darkgray, rgb(190, 188, 188) );
+    transition: width 2s, height 3s;
+    margin:$marginBox; 
+    border: $borderBox;
+    align-content:center;
+    justify-content: center;
+}
+
+.box2:hover {
+    width:$widthUnit * 5;
+    height:35vh;
+}
+
+
+
+.box3 { 
+    
+    width: 100%;
+    display: flex;
+    padding: 20px 5px;
+    font-size: 30px;
+    background-image: linear-gradient(darkgray, rgb(190, 188, 188) );    
+    margin: $marginBox;
+    border: $borderBox;
+    align-content:center;
+    justify-content: center;
+}

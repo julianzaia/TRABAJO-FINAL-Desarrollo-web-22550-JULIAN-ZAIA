@@ -1,0 +1,28 @@
+.h1principal {
+    font-size: 30px;
+    
+    font-weight: bold;
+    display: block;
+    color: $textColor;
+    justify-content:center;
+    padding: 2px auto;
+    background-image: linear-gradient(darkgray, rgb(190, 188, 188) );
+    animation-duration:3s;
+    animation-name: fadin;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadin {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity:3;
+    }
+}
+.video {
+    width: 100%;
+    height:100%;
+}
+
+
